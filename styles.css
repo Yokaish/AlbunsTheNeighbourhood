@@ -233,3 +233,65 @@ body {
     margin: 2em 0;
 }
 
+/*aqui começa o css do merchan*/
+
+
+.container__merchan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    margin-top: -200px;
+}
+
+.merchan__title {
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+}
+
+.merchan__title:hover {
+    color: var(--cinza-secundario);
+}
+
+.merchan__title__price {
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.merchan__cent {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-top: 28px;
+}
+
+.merchan {
+    background-color: var(--branco-cards);
+    width: 400px;
+    height: 510px;
+    margin-top: 100px;
+    border-radius: 16px;
+    font-family: var(--fonte-principal);
+    font-size: 15px;
+    color: var(--branco-principal);
+    box-shadow: rgba(174, 174, 174, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; 
+}
+
+.merchan__image {
+    height: 300px;
+    width: 300px;
+    border-radius: 16px;
+    cursor: pointer;
+    transition:0.3s ease;
+}
+
+.merchan__image:hover {
+    padding: 4px;
+    transition: 0.3s;
+}
