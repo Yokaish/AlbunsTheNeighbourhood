@@ -1,0 +1,235 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@500&family=Montserrat:ital,wght@1,600&display=swap');
+
+:root {
+    --branco-principal: #F5F5F5;
+    --cinza-secundario: #c9c9c9;
+    --branco-cards: #4d4d4d;
+    --cor-fundo: #161616;
+    --fonte-principal:'Gabarito', cursive;
+    --fonte-secundaria:'Montserrat', sans-serif;
+    --botao-efeito:  #499b978c;
+    --cor-footer: #aaaaaa;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.logodiv {
+    height: 80px;
+    width: 80px;
+    margin-left: 40px;
+    margin-top: 2px;
+    transition:0.3s ease;
+}
+
+.logodiv:hover {
+    padding: 2px;
+    transition: 0.3s;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-right: 130px;
+}
+
+.container__header {
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 2px;
+}
+
+.navs {
+    text-decoration: none;
+    color: var(--branco-principal);
+}
+
+.navs:hover {
+    color: var(--cinza-secundario);
+}
+
+body {
+    background-color: var(--cor-fundo);
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container__title {
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 50px;
+}
+
+.container__paragraph {
+    color: var(--cinza-secundario);
+    font-family: var(--fonte-principal);
+    font-size: 30px;
+}
+
+.card {
+    background-color: var(--branco-cards);
+    width: 300px;
+    height: 510px;
+    margin-top: 100px;
+    border-radius: 16px;
+    font-family: var(--fonte-principal);
+    font-size: 15px;
+    color: var(--branco-principal);
+    box-shadow: rgba(174, 174, 174, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.card__image {
+    height: 200px;
+    width: 200px;
+    border-radius: 16px;
+    margin-top: 15px;
+    cursor: pointer;
+    box-shadow: rgba(128, 128, 128, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition:0.3s ease;
+}
+
+.card__image:hover {
+    padding: 3px;
+    transition: 0.3s;
+}
+
+.imagem__cent {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.years {
+    color: var(--cinza-secundario);
+}
+
+.card__musics {
+    margin-left: -35px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.card__link {
+    text-decoration: none;
+    color: var(--branco-principal);
+}
+
+.card__link:hover {
+    color: var(--cinza-secundario);
+    transition: 0.5s;
+}
+
+.container__about {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 100px;
+    gap: 250px;
+}
+
+.container__about__title {
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 50px;
+    margin: 30px 100px;
+}
+
+.container__about__paragraph {
+    color: var(--cinza-secundario);
+    font-family: var(--fonte-principal);
+    font-size: 30px;
+    margin: 100px;
+}
+
+.about__image {
+    height: 500px;
+    width: 500px;
+    margin-right: 100px;
+    border-radius: 16px;
+    box-shadow: rgba(174, 174, 174, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.container__about__reverse {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-top: -45px;
+    gap: 250px;
+    margin-left: 100px;
+}
+
+.logofinal {
+    height: 200px;
+    width: 200px;
+}
+
+.footer {
+    text-align: center;
+    height: 55vh;
+}
+
+.footer__lista {
+    display: flex;
+    justify-content: center;
+    margin: 5em 0;
+    list-style-type: none;
+    gap: 20px;
+    text-decoration: none; 
+}
+
+.footer__lista__link {
+    text-decoration: none;
+    font-family: var(--fonte-principal);
+}
+
+.linkfinal {
+    text-decoration: none;
+    color: var(--cinza-secundario);
+    font-family: var(--fonte-principal);
+}
+
+.footer__text {
+    color: var(--cinza-secundario);
+    font-family: var(--fonte-principal);
+    margin: 2em 0;
+}
+
