@@ -295,3 +295,28 @@ body {
     padding: 4px;
     transition: 0.3s;
 }
+
+/*aqui começa o css dos termos*/
+
+.container__terms {
+    height: 100vh;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--branco-principal);
+    padding-top: 20px;
+    gap: 20px;
+}
+
+.container__terms__title {
+    color: black;
+    font-family: var(--fonte-principal);
+    font-size: 50px;
+}
+
+.container__terms__paragraph {
+    color: black;
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+}
